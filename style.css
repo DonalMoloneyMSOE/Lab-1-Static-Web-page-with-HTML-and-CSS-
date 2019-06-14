@@ -1,0 +1,155 @@
+/*
+Donal Moloney
+SE 2840
+Lab 1
+Dr. Hornick
+11/30/2017
+ */
+.msoe {
+    width: 140px;
+
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+.name {
+    text-align: center;
+    font-size: 170%;
+
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 150%;
+
+}
+
+.hyperlink {
+    text-align: center;
+    font-size: 130%;
+}
+
+table {
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+@media screen {
+
+    body {
+        background-color: coral;
+        font: 14px arial, sans-serif;
+    }
+
+
+    .days {
+        font-size: 115%;
+        text-align: center;
+        background-color: #000000;
+        width: 15%;
+        color: #fafafb;
+    }
+
+    .SE2811 {
+        text-align: center;
+        font-size: 90%;
+        background-color: #d61911;
+        width: 15%;
+        color: #ffff2d;
+    }
+
+    .SE2840 {
+        text-align: center;
+        font-size: 90%;
+        background-color: #23d689;
+        width: 15%;
+        color: #ffffff;
+
+    }
+
+    .BI102 {
+        text-align: center;
+        font-size: 90%;
+        background-color: #80ced6;
+        width: 15%;
+        color: #ff0000;
+
+    }
+
+    .CS2711 {
+        text-align: center;
+        font-size: 90%;
+        background-color: #d6cf1d;
+        width: 15%;
+        color: #0734ff;
+
+    }
+
+    .blankTime {
+        text-align: center;
+        background-color: #000000;
+        width: 10%;
+    }
+
+    .time {
+        text-align: center;
+        font-size: 90%;
+        width: 10%;
+        color: #ffffff;
+    }
+
+    table {
+        border: 2px dotted #ff1514;
+    }
+
+    th, td {
+        border: 1px solid #1921ff;
+    }
+}
+@media print {
+    body{
+        background-color: white;
+        font:14px Times, sans-serif;
+        color: black;
+    }
+    .SE2811{
+        text-align: center;
+        font-size: 90%;
+        width:15%;
+    }
+    .SE2840{
+        text-align: center;
+        font-size: 90%;
+        width:15%;
+
+    }
+    .BI102{
+        text-align: center;
+        font-size: 90%;
+        width:15%;
+    }
+    .CS2711{
+        text-align: center;
+        font-size: 90%;
+        width:15%;
+    }
+    .blankTime{
+        text-align: center;
+        width: 10%;
+    }
+    .time{
+        text-align: center;
+        font-size: 90%;
+        width: 10%;
+        color: #000000;
+    }
+    table {
+        border: 2px dotted #000014;
+    }
+
+    th,td{
+        border: 1px solid #000000;
+    }
+}

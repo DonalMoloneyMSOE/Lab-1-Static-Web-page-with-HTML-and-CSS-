@@ -1,4 +1,4 @@
-# Lab-1-Static-Web-page-with-HTML-and-CSS-
+# Lab-1-Static-Web-page-with-HTML-and-CSS from (11/30/2017) 
 Lab 1: Static Web page with HTML and CSS 
 
 Outcomes addressed
